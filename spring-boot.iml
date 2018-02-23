@@ -6,6 +6,16 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mail/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mail/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/mongodb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/jpa-curd/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/multi-mongodb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mybatis-annotation/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mybatis-annotation-mulidatasource/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mybatis-mulidatasource/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/web/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/jpa-curd/target" />
+      <excludeFolder url="file://$MODULE_DIR$/mongodb/target" />
+      <excludeFolder url="file://$MODULE_DIR$/mybatis-annotation/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.neo</groupId>
-    <artifactId>spring-boot-mail</artifactId>
+    <artifactId>mail</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>spring-boot-mail</name>
+    <name>mail</name>
     <description>Demo project for Spring Boot and mail</description>
 
     <parent>

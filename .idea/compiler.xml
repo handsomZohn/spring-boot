@@ -7,12 +7,48 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hello-world" />
+        <module name="jpa-curd" />
         <module name="mail" />
+        <module name="mongodb" />
+        <module name="multi-mongodb" />
+        <module name="mybatis-annotation" />
+        <module name="mybatis-annotation-mulidatasource" />
+        <module name="mybatis-mulidatasource" />
+        <module name="mybatis-xml" />
+        <module name="package-war" />
+        <module name="rabbitmq" />
+        <module name="scheduler" />
+        <module name="shiro" />
+        <module name="spring-boot-jpa-thymeleaf-curd" />
+        <module name="spring-boot-mongodb" />
+        <module name="spring-boot-multi-mongodb" />
+        <module name="spring-boot-mybatis-annotation" />
+        <module name="spring-boot-mybatis-annotation-mulidatasource" />
+        <module name="thymeleaf" />
+        <module name="web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hello-world" target="1.8" />
+      <module name="jpa-curd" target="1.8" />
       <module name="mail" target="1.8" />
+      <module name="mongodb" target="1.8" />
+      <module name="multi-mongodb" target="1.8" />
+      <module name="mybatis-annotation" target="1.8" />
+      <module name="mybatis-annotation-mulidatasource" target="1.8" />
+      <module name="mybatis-mulidatasource" target="1.8" />
+      <module name="mybatis-xml" target="1.8" />
+      <module name="package-war" target="1.7" />
+      <module name="rabbitmq" target="1.8" />
+      <module name="scheduler" target="1.8" />
+      <module name="shiro" target="1.8" />
+      <module name="spring-boot-jpa-thymeleaf-curd" target="1.8" />
+      <module name="spring-boot-mongodb" target="1.8" />
+      <module name="spring-boot-multi-mongodb" target="1.8" />
+      <module name="spring-boot-mybatis-annotation" target="1.8" />
+      <module name="spring-boot-mybatis-annotation-mulidatasource" target="1.8" />
+      <module name="thymeleaf" target="1.8" />
+      <module name="web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

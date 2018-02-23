@@ -50,7 +50,15 @@
             <optional>true</optional>
         </dependency>
 
-
+        <!--
+        Exception in thread "main" java.lang.NoSuchMethodError: org.junit.platform.commons.util.ReflectionUtils.getDefaultClassLoader()Ljava/lang/ClassLoader;
+	    at org.junit.platform.launcher.core.ServiceLoaderTestEngineRegistry.loadTestEngines(ServiceLoaderTestEngineRegistry.java:30)
+	    at org.junit.platform.launcher.core.LauncherFactory.create(LauncherFactory.java:53)
+	    at com.intellij.junit5.JUnit5IdeaTestRunner.createListeners(JUnit5IdeaTestRunner.java:39)
+	    at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:49)
+	    at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	    at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+        通过pom.xml发现，我希望使用JUnit4.12运行测试用例，我们查看pom.xml发现junit-jupiter-api这个依赖会导致这个错误。
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -61,6 +69,7 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>RELEASE</version>
         </dependency>
+        -->
     </dependencies>
 
     <!-- 热启动 改动之后即时生效 -->

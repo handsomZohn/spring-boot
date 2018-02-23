@@ -1,5 +1,9 @@
 package com.neo.entity;
 
+/**
+ * javax  表示扩展 java 不是java自带的。
+ */
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,7 +14,7 @@ public class User {
     @Id
     @GeneratedValue
     private long id;
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false, unique = true)  // 不能重复
     private String userName;
     @Column(nullable = false)
     private String password;

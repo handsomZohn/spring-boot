@@ -12,6 +12,9 @@ import java.util.TreeSet;
 
 /**
  * 主程序  运行时 就运行的这个程序
+ * 直接访问
+ *
+ *
  */
 @SpringBootApplication
 public class Application {

@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/mybatis-annotation-mulidatasource/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mybatis-mulidatasource/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java/dataType" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/jpa-curd/target" />
       <excludeFolder url="file://$MODULE_DIR$/mongodb/target" />
       <excludeFolder url="file://$MODULE_DIR$/mybatis-annotation/target" />

@@ -10,25 +10,36 @@ import javax.persistence.Id;
  */
 @Entity
 public class Student {
+    @Column(nullable = false, unique = true)
+    private String name;
     @Id
     @GeneratedValue
     private long id; // id
-    @Column(nullable = false, unique = true)
-    private String name;
 
     public long getId() {
         return id;
     }
 
-    public void setId(long id) {
+//    public void setId(long id) {
+//        this.id = id;
+//    }
+
+    public Student setId(long id) {
         this.id = id;
+        return this;
     }
+
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public Student setName(String name) {
         this.name = name;
+        return this;
     }
+
+//    public void setName(String name) {
+//        this.name = name;
+//    }
 }

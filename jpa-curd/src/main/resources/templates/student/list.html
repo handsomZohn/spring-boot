@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<h1>用户列表</h1><br/>
 <div class="with:80%" xmlns:th="http://www.w3.org/1999/xhtml">
     <table class="table table-hover">
         <thead>
@@ -10,7 +12,7 @@
         </tr>
         </thead>
         <tbody>
-        <tr  th:each="student : ${students}">
+        <tr th:each="student : ${students}">
             <th scope="row" th:text="${student.id}">1</th>
             <td th:text="${student.name}">neo</td>
             <td><a th:href="@{/toEdit(id=${student.id})}">edit</a></td>
@@ -27,7 +29,6 @@
 </head>
 <body class="container">
 <br/>
-<h1>用户列表</h1>
 <br/><br/>
 <div class="form-group">
     <div class="col-sm-2 control-label">

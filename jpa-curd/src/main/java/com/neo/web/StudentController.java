@@ -1,9 +1,7 @@
 package com.neo.web;
 
 import com.neo.entity.Student;
-import com.neo.entity.User;
 import com.neo.service.StudentService;
-import com.neo.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

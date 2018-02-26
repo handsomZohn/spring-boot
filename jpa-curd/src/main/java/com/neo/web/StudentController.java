@@ -56,4 +56,10 @@ public class StudentController {
         studentService.edit(student);
         return "redirect:/student/list";
     }
+
+    @RequestMapping("/delete")
+    public String delete(long id){
+        studentService.delete(id);
+        return "redirect:/student/list";
+    }
 }

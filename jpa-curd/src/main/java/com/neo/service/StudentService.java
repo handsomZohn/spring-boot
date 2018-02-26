@@ -7,6 +7,11 @@ import java.util.List;
 
 public interface StudentService {
 
-     List<Student> getStudentList();
+    List<Student> getStudentList();
 
+    void save(Student student);
+
+    Student findStudentById(long id);
+
+    void edit(Student student);
 }

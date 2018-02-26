@@ -14,24 +14,46 @@ import java.util.List;
 @Controller
 public class StudentController {
 
+
     @Resource
     StudentService studentService;
 
 
     @RequestMapping("/")
     public String index() {
-        return "redirect:/list";
+        return "redirect:/student/list";
     }
 
     @RequestMapping("/list")
     public String list(Model model) {
+        // 根据id排序
         List<Student> students = studentService.getStudentList();
         model.addAttribute("students", students);
-        int[] arr = {1, 2, 3, 4, 5};
-        int len = arr.length;
-        for (int i = 0; i < len; i++){
-            System.out.println(arr[i]);
-        }
         return "student/list";
+    }
+
+    @RequestMapping("/toAdd")
+    public String toAdd(){
+        return "student/studentAdd";
+    }
+
+    @RequestMapping("/add")
+    public String add(Student student){
+        studentService.save(student);
+        return "redirect:/student/list";
+    }
+
+    @RequestMapping("/toEdit")
+    public String toEdit(Model model, long id){
+        Student student = studentService.findStudentById(id);
+        model.addAttribute("student",student);
+        return "student/studentEdit";
+    }
+
+    // 召唤师 等一下我想问你 你后悔吗?
+    @RequestMapping("/edit")
+    public String edit(Student student){
+        studentService.edit(student);
+        return "redirect:/student/list";
     }
 }

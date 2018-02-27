@@ -22,7 +22,7 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public List<Student> getStudentList() {
-        return studentRepository.findAll(new Sort(Sort.Direction.DESC,"id"));
+        return studentRepository.findAll(new Sort(Sort.Direction.ASC,"id"));
        //return studentRepository.findAll(new Sort("id"));
     }
 
@@ -45,6 +45,11 @@ public class StudentServiceImpl implements StudentService {
     @Override
     public void delete(long id) {
         studentRepository.delete(id);
+    }
+
+    @Override
+    public Student findStudentByName(String name) {
+        return studentRepository.findStudentByName(name);
     }
 
 }

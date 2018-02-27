@@ -9,5 +9,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * 相当于dao
  */
 public interface StudentRepository extends JpaRepository<Student, Long> {
-
+    Student findStudentByName(String name);
 }

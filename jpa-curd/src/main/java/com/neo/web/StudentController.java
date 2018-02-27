@@ -62,4 +62,17 @@ public class StudentController {
         studentService.delete(id);
         return "redirect:/student/list";
     }
+
+    @RequestMapping("/findStudentByName")
+    public String findStudentByName(Model model, String name){
+
+        //
+        if ("".equals(name)){
+            return "redirect:/student/list";
+        }
+        Student student = studentService.findStudentByName(name);
+        model.addAttribute("students", student);
+        return "student/list";
+    }
 }
+

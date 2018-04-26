@@ -66,10 +66,10 @@ public class StudentController {
     @RequestMapping("/findStudentByName")
     public String findStudentByName(Model model, String name){
 
-        //
-        if ("".equals(name)){
+        //其实应该限制查询时 查询条件不能为空
+        /*if ("".equals(name)){
             return "redirect:/student/list";
-        }
+        }*/
         Student student = studentService.findStudentByName(name);
         model.addAttribute("students", student);
         return "student/list";

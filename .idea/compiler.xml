@@ -7,25 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hello-world" />
-        <module name="java" />
         <module name="jpa-curd" />
-        <module name="mail" />
-        <module name="mongodb" />
-        <module name="multi-mongodb" />
         <module name="mybatis-annotation" />
-        <module name="mybatis-annotation-mulidatasource" />
-        <module name="mybatis-mulidatasource" />
-        <module name="mybatis-xml" />
-        <module name="package-war" />
-        <module name="rabbitmq" />
-        <module name="scheduler" />
-        <module name="shiro" />
         <module name="spring-boot-jpa-thymeleaf-curd" />
         <module name="spring-boot-mongodb" />
         <module name="spring-boot-multi-mongodb" />
         <module name="spring-boot-mybatis-annotation" />
         <module name="spring-boot-mybatis-annotation-mulidatasource" />
-        <module name="thymeleaf" />
         <module name="web" />
       </profile>
     </annotationProcessing>

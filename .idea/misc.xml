@@ -17,23 +17,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/hello-world/pom.xml" />
-        <option value="$PROJECT_DIR$/mail/pom.xml" />
-        <option value="$PROJECT_DIR$/mongodb/pom.xml" />
         <option value="$PROJECT_DIR$/jpa/pom.xml" />
-        <option value="$PROJECT_DIR$/multi-mongodb/pom.xml" />
         <option value="$PROJECT_DIR$/jpa-curd/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-world/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-annotation/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis-annotation-mulidatasource/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis-mulidatasource/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis-xml/pom.xml" />
-        <option value="$PROJECT_DIR$/package-war/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
-        <option value="$PROJECT_DIR$/scheduler/pom.xml" />
-        <option value="$PROJECT_DIR$/shiro/pom.xml" />
-        <option value="$PROJECT_DIR$/thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
-        <option value="$PROJECT_DIR$/java/pom.xml" />
       </list>
     </option>
   </component>

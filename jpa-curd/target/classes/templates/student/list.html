@@ -3,7 +3,6 @@
 
 <h1>学员yun列表</h1><br/>
 <div class="with:80%" xmlns:th="http://www.thymeleaf.org">
-    <!-- 查询的条件怎么回显嘛 奶奶个腿 -->
     <form class="form-inline" role="search" method="post" th:action="@{/student/findStudentByName}"
           th:object="${students}">
         <div class="form-group">

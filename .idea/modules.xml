@@ -3,21 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hello-world/hello-world.iml" filepath="$PROJECT_DIR$/hello-world/hello-world.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java/java.iml" filepath="$PROJECT_DIR$/java/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa-curd/jpa-curd.iml" filepath="$PROJECT_DIR$/jpa-curd/jpa-curd.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mail/mail.iml" filepath="$PROJECT_DIR$/mail/mail.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mongodb/mongodb.iml" filepath="$PROJECT_DIR$/mongodb/mongodb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multi-mongodb/multi-mongodb.iml" filepath="$PROJECT_DIR$/multi-mongodb/multi-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-annotation/mybatis-annotation.iml" filepath="$PROJECT_DIR$/mybatis-annotation/mybatis-annotation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis-annotation-mulidatasource/mybatis-annotation-mulidatasource.iml" filepath="$PROJECT_DIR$/mybatis-annotation-mulidatasource/mybatis-annotation-mulidatasource.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis-mulidatasource/mybatis-mulidatasource.iml" filepath="$PROJECT_DIR$/mybatis-mulidatasource/mybatis-mulidatasource.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis-xml/mybatis-xml.iml" filepath="$PROJECT_DIR$/mybatis-xml/mybatis-xml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/package-war/package-war.iml" filepath="$PROJECT_DIR$/package-war/package-war.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/scheduler/scheduler.iml" filepath="$PROJECT_DIR$/scheduler/scheduler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shiro/shiro.iml" filepath="$PROJECT_DIR$/shiro/shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thymeleaf/thymeleaf.iml" filepath="$PROJECT_DIR$/thymeleaf/thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>
